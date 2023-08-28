@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Stefanus Putranto</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+#img1{
+    border-radius: 50%;
+    width: 150px;
+    margin-left: 50px;
+}
+#img2{
+    border-radius: 10%;
+    width: 70px;
+    border: 2px solid black;
+}
+#img3{
+   
+    width: 180px;
+    border: 2px solid black;
+}
+#img4{
+   
+    width: 140px;
+    border: 2px solid black;
+}
+
+</style>
+
+
+
+</head>
+<body class="w3-light-grey w3-content" style="max-width:1600px">
+
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-collapse w3-white w3-animate-left" style="z-index:3;width:300px;" id="mySidebar"><br>
+  <div class="w3-container">
+    <a href="#" onclick="w3_close()" class="w3-hide-large w3-right w3-jumbo w3-padding w3-hover-grey" title="close menu">
+      <i class="fa fa-remove"></i>
+    </a>
+    <!-- <img src="stefanusp.jpeg" style="width:60%;" class="w3-round"><br><br> -->
+    <img src="image/stefanusp.jpeg"  id="img1"><br><br>
+    <h4><b>Stefanus Putranto</b></h4>
+    <p class="w3-text-grey">Computer Science</p>
+  </div>
+  <div class="w3-bar-block">
+    <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-user fa-fw w3-margin-right"></i>About Me</a> 
+    <a href="#portfolio" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-th-large fa-fw w3-margin-right"></i>Portofolio</a> 
+    <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-envelope fa-fw w3-margin-right"></i>Contact Me</a>
+  </div>
+  
+</nav>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:300px">
+
+  <!-- Header -->
+  <header id="about">
+
+        <!-- Images of Me -->
+    <div class="w3-row-padding w3-padding-16" id="about">
+        <div class="w3-col m4">
+            <img src="image/coding5.jpg" alt="Me" style="width:100%;">
+        </div>
+        <div class="w3-col m4">
+            <img src="image/fotoprofil1.jpeg" alt="Me" style="width:100%;">
+        </div>
+        <div class="w3-col m4">
+            <img src="image/fotoprofil2.jpeg" alt="Me" style="width:100%;">
+        </div>
+        
+    </div>
+
+    <div class="w3-container w3-padding-large" style="margin-bottom:32px">
+
+        <h1><b>About Me</b></h1>
+        <!-- <p id="typed-text">Hello everyone, I am student at Bina Nusantara University majoring in computer science. And has a passion related to creating a website.</p> -->
+        <p id="typed-text"></p>
+        <hr>
+        
+        <div class="w3-container w3-card w3-white w3-margin-bottom">
+            <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Work Experience</h2>
+            <div class="w3-container">
+            
+              <h5 class="w3-opacity"><img src="image/logoawo.png"  id="img2">&nbsp;&nbsp;<b>AstraWorld</b></h5>
+              <h5 class="w3-opacity"><b>Software Engineer - Internship</b></h5>
+              <!-- <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Jan 2015 - <span class="w3-tag w3-teal w3-round">Current</span></h6> -->
+              <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Mar 2022 - Mar 2023</h6>
+              <ul style="list-style-type: disc;">
+                <li>Make a simple flowchart to explain or describe every process that occurs in the program</li>
+                <li>Create Requirement Document of Project</li>
+                <li>Create Web Application front end using HTML, CSS, Javascript, Bootstrap</li>
+                <li>Create Web Application back end using PHP, JavaSript, jQuery, AJAX, JSON</li>
+                <li>Create a database on MySQL and Microsoft SQL Server to store data entered by the user</li>
+                <li>Developing and Maintaining website using framework laravel</li>
+                <li>Fix or Add features needed by the user</li>
+              </ul>
+              <p>Keahlian: jQuery · Web Design · AJAX · PHP · MySQL · HTML · Cascading Style Sheets (CSS) · JavaScript · Microsoft SQL Server · Laravel</p>
+              <hr>
+
+            </div>
+            
+            <div class="w3-container">
+            
+                <h5 class="w3-opacity"><img src="image/TFISC.png"  id="img3">&nbsp;&nbsp;<b>TFI Student Community (TFISC)</b></h5>
+                <h5 class="w3-opacity"><b>Activist</b></h5>
+                <!-- <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Jan 2015 - <span class="w3-tag w3-teal w3-round">Current</span></h6> -->
+                <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Mar 2021 - Mar 2022</h6>
+                <ul style="list-style-type: disc;">
+                  <li>Teaching math and english to elementary school children</li>
+                  <li>Make educational videos with groups</li>
+                  <li>Make a presentation about educational</li>
+                  <li>Discussion with group team</li>
+                </ul>
+                <p>Keahlian: Communication · Presentation Skills · Teaching · Teamwork · Team Motivation · Team Spirit · Article Writing</p>
+                <hr>
+            </div>
+            
+        </div>
+        <hr>
+        
+        <div class="w3-container w3-card w3-white">
+            <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Education</h2>
+            <div class="w3-container">
+              <h5 class="w3-opacity"><img src="image/logobinus.jpg"  id="img4">&nbsp;&nbsp;<b>Binus University - Bachelor Degree Teknik Informatika</b></h5>
+              <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2019-2023</h6>
+              <hr>
+            </div>
+            <div class="w3-container">
+                <h5 class="w3-opacity"><img src="image/logomd.png"  id="img4">&nbsp;&nbsp;<b>Mater Dei Highschool </b></h5>
+                <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2016-2019</h6>
+                <hr>
+            </div>
+            
+        </div>
+
+    <a href="#"><img src="/w3images/avatar_g2.jpg" style="width:65px;" class="w3-circle w3-right w3-margin w3-hide-large w3-hover-opacity"></a>
+    <span class="w3-button w3-hide-large w3-xxlarge w3-hover-text-grey" onclick="w3_open()"><i class="fa fa-bars"></i></span>
+    <hr>
+    <div class="w3-container">
+    <h1 id="portfolio"><b>Portofolio</b></h1>
+    <h5>Forum Gaming and Chat (FNC)</h5>
+    <p>FNC merupakan sebuah platform komunitas yang disediakan untuk para pemain games online seperti valorant,mobile legends, dan dota 2. Website ini disediakan 
+        secara gratis dan hanya berlaku sampai tahun depan sekitar bulan april. 
+    </p>
+    <p>Bagi yang ingin mencoba dapat <b><a href="https://fncforum.site/">Klik link ini</a></b></p>
+    </div>
+  </header>
+    
+  <!-- First Photo Grid-->
+  <div class="w3-row-padding">
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="image/signin.png" alt="Norway" style="width:100%;" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Sign In</b></p>
+        <p style="text-align: justify;">Sign In merupakan salah satu fitur yang saya buat, dimana user dapat melakukan login menggunakan username dan password yang didaftarkan atau menggunakan gmail</p>
+      </div>
+    </div>
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="image/signup.png" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Sign Up</b></p>
+        <p style="text-align: justify;">Sign Up merupakan salah satu fitur yang saya buat, dimana user dapat melakukan register dengan melengkapi form dan datanya akan disimpan di database MySQL</p>
+      </div>
+    </div>
+    <div class="w3-third w3-container">
+      <img src="image/Homepage.png" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Homepage</b></p>
+        <p style="text-align: justify;">Pada bagian Homepage saya membuat 3 fitur diantaranya adalah rekomendasi friend merupakan fitur yang dibuat supaya user dapat menemukan teman yang memiliki rating bagus,latest forum merupakan fitur untuk melihat informasi forum yang terakhir dibuat user,news merupakan fitur yang ditambahkan oleh admin agar user mendapatkan update mengenai game. </p>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Second Photo Grid-->
+  <div class="w3-row-padding">
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="image/list forum.png" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Forum</b></p>
+        <p style="text-align: justify;">Pada bagian forum saya membuat 2 fitur yaitu create dan view list,User dapat membuat forum atau melihat list forum sesuai jenis game yang dipilih nanti akan ditampilkan forum-forum yang telah dibuat oleh user lain.</p>
+      </div>
+    </div>
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="image/detailforum.png" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Detail Forum</b></p>
+        <p style="text-align: justify;">Pada bagian detail forum saya membuat view detail dan juga reply, berisikan deskripsi forum yang telah dibuat oleh user lain dan user lain dapat berkomentar juga pada postingan tersebut dengan menekan reply.</p>
+      </div>
+    </div>
+    <div class="w3-third w3-container">
+      <img src="image/build.png" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Build</b></p>
+        <p style="text-align: justify;">Build merupakan salah satu fitur yang saya buat,User dapat melihat build sesuai game yang dipilih dan nanti akan menampilkan list hero-hero dan jika di klik akan menampilkan hero dengan item yang cocok, terdapat 3 jenis game ml,valorant,dan dota 2.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Third Photo Grid-->
+  <div class="w3-row-padding">
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="image/listgroup.png" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Group Forum</b></p>
+        <p style="text-align: justify;">Pada Group forum saya membuat 3 sub menu, yang pertama untuk membuat group, yang kedua untuk menampilkan list group selain itu user juga dapat melakukan update atau delete pada group yang sudah dia buat, yang ketiga ketika user mendapat invite join group dapat menerima atau menolak. </p>
+      </div>
+    </div>
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="image/detailgroup.png" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Detail Group</b></p>
+        <p style="text-align: justify;">Pada detail group saya membuat view description, replygroup, dan invite friend to group. Reply group dibuat agar yang tergabung pada group dapat berkomentar di group tersebut, sedangkan invite friend to group hanya bisa jika user sudah melakukan pertemanan dengan orang yang ingin diundang</p>
+      </div>
+    </div>
+    <div class="w3-third w3-container">
+      <img src="image/personalchat.png" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Personal Chat</b></p>
+        <p style="text-align: justify;">Pada personal chat saya membuat 3 fitur yaitu add friend yang digunakan untuk mengundang orang pada list yang ditampilkan untuk menjadi teman atau dapat mencari by id, Yang kedua merupakan personal chat yang digunakan agar user dapat bertukar pesan dengan orang yang sudah menjadi temannya, yang ketiga merupakan list acceptance dimana user dapat menerima atau menolak permintaan teman </p>
+      </div>
+    </div>
+  </div>
+
+  <br>
+  <br>
+
+  <!-- Footer -->
+  <footer class="w3-container w3-padding-32 w3-dark-grey">
+  <div class="w3-row-padding">
+   
+    <div class="w3-second">
+      <h3>Technical Skills</h3>
+      <p>
+        <span class="w3-tag w3-black w3-margin-bottom">Laravel</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">PHP</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">MySQL</span>
+        <span class="w3-tag w3-grey w3-small w3-margin-bottom">HTML</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">Javascript</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">SQL Server Management
+          Studio</span>
+      </p>
+    </div>
+
+    <div class="w3-third">
+      <h3>Soft Skills</h3>
+      <p>
+        <span class="w3-tag w3-black w3-margin-bottom">Teamwork</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">Problem Solving</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">Responsibility</span>
+        <span class="w3-tag w3-grey w3-small w3-margin-bottom">Management project or
+          time</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">Creativity</span> 
+      </p>
+    </div>
+
+  </div>
+
+   <!-- Contact Section -->
+   <div class="w3-container w3-padding-large w3-grey">
+    <h4 id="contact"><b>Contact Me</b></h4>
+    <div class="w3-row-padding w3-center w3-padding-24" style="margin:0 -16px">
+      <div class="w3-third w3-dark-grey">
+        <p><i class="fa fa-envelope w3-xxlarge w3-text-light-grey"></i></p>
+        <p>stefanusputranto.work@gmail.com</p>
+      </div>
+      <div class="w3-third w3-teal">
+        <p><i class="fa fa-map-marker w3-xxlarge w3-text-light-grey"></i></p>
+        <p>Tangerang Selatan, Indonesia</p>
+      </div>
+      <div class="w3-third w3-dark-grey">
+        <p><i class="fa fa-instagram w3-xxlarge w3-text-light-grey"></i></p>
+        <p>stefanusputranto</p>
+      </div>
+    </div>
+    <hr class="w3-opacity">
+  
+  </div>
+  </footer>
+  
+  
+<!-- End page content -->
+</div>
+
+<script>
+const textToType = "Hello everyone, I am student at Bina Nusantara University majoring in computer science. And has a passion related to creating a website.";
+const typedTextElement = document.getElementById("typed-text");
+
+let index = 0;
+
+function typeText() {
+  typedTextElement.textContent = textToType.slice(0, index);
+  index++;
+
+  if (index <= textToType.length) {
+    setTimeout(typeText, 30); // Ubah nilai 100 untuk mengatur kecepatan pengetikan
+  }
+}
+
+typeText();
+</script>
+
+
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+    document.getElementById("mySidebar").style.display = "block";
+    document.getElementById("myOverlay").style.display = "block";
+}
+ 
+function w3_close() {
+    document.getElementById("mySidebar").style.display = "none";
+    document.getElementById("myOverlay").style.display = "none";
+}
+</script>
+
+</body>
+</html>
